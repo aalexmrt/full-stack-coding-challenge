@@ -5,16 +5,28 @@ Your task is to build a Node.js (or Python) application that retrieves warehouse
 ## Requirements
 
 ### Retrieve Snowflake Warehouse Metrics
-- Develop a Node.js (or Python) application that connects to Snowflake using appropriate libraries or APIs.
-- Retrieve relevant warehouse metrics such as warehouse size, data points, number of rows, and number of tables.
+- Develop a Node.js (or Python) application that connects to the Snowflake using appropriate libraries or APIs using the following credentials:
+  - username: interview_user
+  - password: yHsrH^%M#7Lf
+  - endpoint: https://gza68067.snowflakecomputing.com
+  - role: interview_rl
+  - warehouse: interview_wh
+  - database: interview_db
+- Create an API that retrieves relevant warehouse metrics such as database size in gb, total number of rows, total number of tables and _data points_ defined as the sum of the number of columns of each table times the number of rows for that table for each table in the database.
 
 ### Database Integration
 - Create a database (you can choose a database system like PostgreSQL, MySQL, or SQLite).
-- Store the retrieved warehouse metrics in the database.
+- Store the retrieved warehouse metrics in the database with a timestamp for when they were retrieved in UTC.
   
 ### Front-end
 - Develop a front-end interface using a framework - React.
-- Implement a dashboard where users can view metrics over time.
+- Display a table where users can view metrics over time that looks like this (the numbers are not accurate):
+
+    | datetime      | database size | rows | tables | data points |
+    |---            |---            |---   |---     |---          |
+    | 2023-10-10 20:18:53| 6.1GB    | 1.24M|52      | 225.2M      |
+    | 2023-10-11 07:09:21| 6.2GB    | 1.35M|52      | 227.8M      |
+
 - *(Optional)* Display the metrics graphically using charts or graphs (you can use libraries like D3.js, Chart.js, or others).
 
 ### Docker and Docker Compose
