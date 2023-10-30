@@ -1,0 +1,72 @@
+[
+  {
+    "datetime": "2022-01-01 00:00:00",
+    "databaseSize": "10GB",
+    "rows": "1M",
+    "tables": "50",
+    "dataPoints": "100M"
+  },
+  {
+    "datetime": "2022-02-01 00:00:00",
+    "databaseSize": "11GB",
+    "rows": "1.1M",
+    "tables": "51",
+    "dataPoints": "110M"
+  },
+  {
+    "datetime": "2022-03-01 00:00:00",
+    "databaseSize": "12GB",
+    "rows": "1.2M",
+    "tables": "52",
+    "dataPoints": "120M"
+  },
+  {
+    "datetime": "2022-04-01 00:00:00",
+    "databaseSize": "13GB",
+    "rows": "1.3M",
+    "tables": "53",
+    "dataPoints": "130M"
+  },
+  {
+    "datetime": "2022-05-01 00:00:00",
+    "databaseSize": "14GB",
+    "rows": "1.4M",
+    "tables": "54",
+    "dataPoints": "140M"
+  },
+  {
+    "datetime": "2022-06-01 00:00:00",
+    "databaseSize": "15GB",
+    "rows": "1.5M",
+    "tables": "55",
+    "dataPoints": "150M"
+  },
+  {
+    "datetime": "2022-07-01 00:00:00",
+    "databaseSize": "16GB",
+    "rows": "1.6M",
+    "tables": "56",
+    "dataPoints": "160M"
+  },
+  {
+    "datetime": "2022-08-01 00:00:00",
+    "databaseSize": "17GB",
+    "rows": "1.7M",
+    "tables": "57",
+    "dataPoints": "170M"
+  },
+  {
+    "datetime": "2022-09-01 00:00:00",
+    "databaseSize": "18GB",
+    "rows": "1.8M",
+    "tables": "58",
+    "dataPoints": "180M"
+  },
+  {
+    "datetime": "2022-10-01 00:00:00",
+    "databaseSize": "19GB",
+    "rows": "1.9M",
+    "tables": "59",
+    "dataPoints": "190M"
+  }
+]
